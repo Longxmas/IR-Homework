@@ -1,0 +1,1 @@
+bash openai.sh 2wikihop configs/2wikihop_config.json 

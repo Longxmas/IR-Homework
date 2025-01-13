@@ -1,0 +1,13 @@
+#pred   #gold   #examples
+192.95  35.08   200
+
+#search #steps  ret ratio       ret hit
+2.905   3.3     0.91825 0.0
+correct incorrect       wrongformat     f1      precision       recall  ent_f1  ent_precision   ent_recall      num_ent avg_nll ppl     tokens
+0.42    0.54    0.04    0.49733391608391614     0.49477579365079366     0.5155714285714287      0.0     0.0     0.0     0.0     0.06456027891379494     1.0730713072176947      50.49
+
+INFO:absl:Using default tokenizer.
+
+
+rouge1  rouge2  rougeL  rougeLsum
+0.295567207474406       0.2407736818280387      0.27755158530065593     0.27777792064285944

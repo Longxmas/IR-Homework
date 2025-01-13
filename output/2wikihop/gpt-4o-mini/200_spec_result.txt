@@ -1,0 +1,15 @@
+#pred   #gold   #examples
+48.17   35.08   200
+
+/data/longlingkun/workspace/RAG/prep.py:265: RuntimeWarning: Mean of empty slice.
+  ret_accs = np.array(ret_accs, dtype=float).mean(0)
+/data/longlingkun/workspace/RAG/prep.py:266: RuntimeWarning: Mean of empty slice.
+  ret_covers = np.array(ret_covers, dtype=float).mean(0)
+#search #steps  ret ratio       ret hit
+1.015   0.0     1.015   0.0
+correct incorrect       wrongformat     f1      precision       recall  ent_f1  ent_precision   ent_recall      num_ent avg_nll ppl     tokens
+0.51    0.455   0.035   0.5762527298671877      0.5773179012345678      0.58925 0.0     0.0     0.0     0.0     nan     1.2621084999364587      92.095
+
+INFO:absl:Using default tokenizer.
+rouge1  rouge2  rougeL  rougeLsum
+0.7824864167189085      0.7400691375876199      0.782216662088718       0.7825156679225644
